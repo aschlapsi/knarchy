@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export KNARCHY_DIR=~/.local/share/knarchy/
+export KNARCHY_DIR=~/.local/share/knarchy
 
 echo -e
 echo -e "***********"
