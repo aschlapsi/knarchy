@@ -1,4 +1,4 @@
-paru -S --noconfirm --needed \
+yay -S --noconfirm --needed \
   hyprland hyprshot hyprpicker hyprlock hypridle hyprland-qtutils \
   hyprpaper wofi waybar swaync xdg-desktop-portal-hyprland \
   xdg-desktop-portal-gtk cliphist

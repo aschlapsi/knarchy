@@ -1,4 +1,4 @@
-paru -S --noconfirm --needed \
+yay -S --noconfirm --needed \
   brightnessctl playerctl pamixer pavucontrol wireplumber \
   thunar mpv imv flatpak
 
