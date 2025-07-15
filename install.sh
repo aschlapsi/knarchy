@@ -9,5 +9,14 @@ done
 
 #sudo updatedb
 
+git clone https://github.com/aschlapsi/dotfiles.git ~/.local/share/dotfiles >/dev/null
+cd ~/.local/share/dotfiles
+stow hyprland
+stow hypridle
+stow hyprlock
+stow hyprpaper
+stow waybar
+stow backgrounds
+
 echo -e "Reboot to apply all settings!"
 
