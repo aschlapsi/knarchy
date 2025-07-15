@@ -7,7 +7,7 @@ for f in $KNARCHY_DIR/install/*.sh; do
   source "$f"
 done
 
-sudo updatedb
+#sudo updatedb
 
 echo -e "Reboot to apply all settings!"
 
