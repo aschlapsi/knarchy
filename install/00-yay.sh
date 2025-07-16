@@ -1,7 +1,7 @@
 sudo pacman -S --needed --noconfirm base-devel
 
 if ! command -v yay &>/dev/null; then
-  rm -rf /tmp/paru
+  rm -rf /tmp/yay-bin
   cd /tmp
   git clone https://aur.archlinux.org/yay-bin.git
   cd yay-bin
