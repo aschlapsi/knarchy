@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-directory=$HOME/.config/hypr/backgrounds
+directory=$HOME/.config/backgrounds
 
 selection=$(ls $directory/ | sed /wallpaper\.jpg/d | sed s/\.jpg//g | sort -u | wofi --show dmenu --prompt "Select background" --width 40% --height 195)
 
