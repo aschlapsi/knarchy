@@ -1,5 +1,8 @@
 set -e
 
+: "${KNARCHY_DIR:=$HOME/.local/share/knarchy}"
+
+trap 'set +e' ERR
 trap 'echo "Knarchy installation failed! You can retry by running: source $KNARCHY_DIR/install.sh"' ERR
 
 for f in $KNARCHY_DIR/install/*.sh; do
@@ -9,14 +12,6 @@ done
 
 #sudo updatedb
 
-git clone https://github.com/aschlapsi/dotfiles.git ~/.local/share/dotfiles >/dev/null
-cd ~/.local/share/dotfiles
-stow hyprland
-stow hypridle
-stow hyprlock
-stow hyprpaper
-stow waybar
-stow backgrounds
-
 echo -e "Reboot to apply all settings!"
+set +e
 
