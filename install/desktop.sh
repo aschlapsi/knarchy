@@ -1,4 +1,4 @@
-yay -S --noconfirm --needed \
+sudo pacman -S --noconfirm --needed \
   brightnessctl playerctl pamixer pavucontrol wireplumber \
-  dolphin mpv imv
+  dolphin mpv imv sxiv
 
